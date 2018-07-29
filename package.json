@@ -1,0 +1,33 @@
+{
+  "name": "clustered-connection-hive",
+  "version": "1.4.2",
+  "description": "A clusted socket.io server to host free form data routing and connections",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claytonbez/cluster-connection-hive.git"
+  },
+  "keywords": [
+    "websockets",
+    "cluster",
+    "socket.io"
+  ],
+  "author": "CB BEZUIDENHOUT <bezclayton@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claytonbez/cluster-connection-hive/issues"
+  },
+  "homepage": "https://github.com/claytonbez/cluster-connection-hive#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "colors": "^1.3.1",
+    "express": "^4.16.3",
+    "farmhash": "^2.1.0",
+    "redis": "^2.8.0",
+    "socket.io": "^2.1.1",
+    "socket.io-redis": "^5.2.0"
+  }
+}
